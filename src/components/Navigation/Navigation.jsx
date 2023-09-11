@@ -9,6 +9,7 @@ export function Navigation (){
                 <Link to='/omos'>Om os</Link>
                 <Link to='/kontakt'>Kontakt</Link>
                 <Link to='/login'>Login</Link>
+                <NavLink to="/cart">Kurv</NavLink>
             </div>
         </nav>
     )
