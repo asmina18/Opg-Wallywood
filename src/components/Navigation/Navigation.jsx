@@ -1,15 +1,16 @@
-import{Link} from 'react-router-dom'
-export function Navigation (){
+import { NavLink } from 'react-router-dom';
+import style from './Navigation.module.scss'
 
-    return(
-        <nav>
+
+export const Navigation = () => {
+
+    return (
+        <nav className={style.navStyle} >
             <div>
-                <Link to='/'>Home</Link>
-                <Link to='/plakater'>Plakater</Link>
-                <Link to='/omos'>Om os</Link>
-                <Link to='/kontakt'>Kontakt</Link>
-                <Link to='/login'>Login</Link>
-                <NavLink to="/cart">Kurv</NavLink>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/login">Login</NavLink>
+                <NavLink to="/userposts">Posts</NavLink>
             </div>
         </nav>
     )

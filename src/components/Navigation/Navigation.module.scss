@@ -1,2 +1,16 @@
 
+.navStyle {
+  top: 55px;
+  left: 719px;
+  width: 49px;
+  height: 27px;
+}
 
+.navStyle a {
+  text-decoration: none; /* Убрать подчеркивание */
+  margin-right: 10px; /* Отступ между ссылками */
+}
+
+.navStyle a:hover {
+  color: rgb(24, 59, 59);
+}

@@ -1,23 +1,31 @@
 import './App.css'
-import{MainLayout} from './components/Layout/MainLayout.jsx'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { MainLayout } from "./Layout/MainLayout";
+import { HomePage } from "./Pages/HomePage";
+import { AboutPage } from "./Pages/AboutPage";
+// import { LoginPage } from "./Pages/LoginPage";
+// import {UserPostPage} from './Pages/UserPostPage'
+import { NotFoundPage } from "./Pages/NotFoundPage";
 
 function App() {
 
 
-    return (
+  return (
 
-      <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainLayout />}>
-         
+          <Route index element={<HomePage title="HOME" />} />
+          <Route path="/about" element={<AboutPage title="ABOUT" />} />
+          {/* <Route path="/user" element={<UserPage title="USER"/>}/> */}
+          {/* <Route path="/login" element={<LoginPage title="LOGIN"/>}/> */}
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
 
 
-
-    )
-  }
+  )
+}
 
 export default App

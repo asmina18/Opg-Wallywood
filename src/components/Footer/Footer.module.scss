@@ -1,21 +1,18 @@
+.footerStyle{
+    display:flex;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    justify-content: space-between;
+    font-size: 0.8rem;
 
-.footer{
-    border-top: 1px;
-	margin-top: 1rem;
-	padding-top: 1rem;
-	display: flex;
-	font-size: 0.8rem;	
-	// justify-content: space-between;
 
-	h3 {
-		font-size: 1rem;
-		text-transform: uppercase;
-		
-	}
 
-	address {
-		font-style: normal;
-	}
+    h2{
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
 
-	
+    address{
+        font-style:normal;
+    }
 }

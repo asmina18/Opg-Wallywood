@@ -1,12 +1,13 @@
-import style from './Footer.module.scss'
+
 
 export const Footer = () => {
 
     return (
-        <footer className={style.footer}>
+        <footer className={style.footerStyle} >
             <div>
-                <h3>Wallywood</h3>
-                <address>Øster Uttrupvej 1<br />
+                <h2>Wallywood</h2>
+                <address>
+                    Øster Uttrupvej 1<br />
                     9000 Aalborg
                 </address>
             </div>
@@ -18,3 +19,4 @@ export const Footer = () => {
         </footer>
     )
 }
+
