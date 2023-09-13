@@ -16,11 +16,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<MainLayout />}>
-          <Route index element={<HomePage title="HOME" />} />
+          <Route index element={<HomePage title='HOME' />} />
           <Route path='/post' element={<PostPage />} />
-          <Route path='/about' element={<AboutPage title="ABOUT" />} />
+          <Route path='/about' element={<AboutPage title='ABOUT' />} />
           <Route path='/contact' element={<ContactPage title='Contact' />} />
-          {/* <Route path="/login" element={<LoginPage title="LOGIN"/>}/> */}
+          {/* <Route path="/login" element={<LoginPage title='LOGIN'/>}/> */}
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
