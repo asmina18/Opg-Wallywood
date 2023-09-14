@@ -1,16 +1,25 @@
 
-.navStyle {
-  top: 55px;
-  left: 719px;
-  width: 49px;
-  height: 27px;
+
+.navStyle{
+  overflow: hidden;
+  background-color:white;
+  border-bottom: 2px solid #D97852;
+  text-align: right; /* Выравнивание по правому краю */
+ 
+  
 }
 
 .navStyle a {
-  text-decoration: none; /* Убрать подчеркивание */
-  margin-right: 10px; /* Отступ между ссылками */
+  display: inline-block; /* Размещение элементов в одной строке */
+  color:#191514;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .navStyle a:hover {
-  color: rgb(24, 59, 59);
+  background-color: #ddd;
+  color: black;
 }
+
