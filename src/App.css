@@ -1,17 +1,11 @@
-/* @import url(./Styled/GlobalStyle.scss);  ya eshe ne znau kak ono rabotaet nado uznovat*/ 
-
 *{
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 #root{
   margin: auto;
-  text-align: center;
-  justify-content: center;
+  padding: 0 2rem;
   width: 1200px;
-  
 }

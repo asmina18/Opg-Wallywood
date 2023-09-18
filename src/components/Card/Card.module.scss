@@ -1,0 +1,37 @@
+@import url(../../Styled/GlobalStyle.scss);
+
+
+.cardContainer {
+  align-items: flex-start;
+    position: relative;
+    padding: 3em;
+    border: 3px solid red;
+    width: 80%; /* Уменьшение ширины до 80% от родителя */
+    margin-top:0;
+
+
+    .imgContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em; /* Добавим отступ между блоками */
+    }
+
+    figure {
+        display: flex; /* Используем flex вместо grid для элементов внутри .imgContainer */
+        flex-direction: column; /* Элементы внутри .imgContainer располагаются вертикально */
+        align-items: center; /* Выравниваем элементы по центру */
+
+        img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        figcaption {
+            text-align: center;
+            /* text-decoration: none; */
+        }
+    }
+}
+
+
+

@@ -1,0 +1,36 @@
+@import url(../../Styled/GlobalStyle.scss);
+
+.contactStyle {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 15rem;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 20em;
+    }
+
+    input{
+        height: 38px;
+
+    }
+
+    textarea,input{
+        width: 100%;
+        resize: none;
+        border-top: #D1B3A7;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        margin: 20px 0 20px 0;
+        border-radius: 3px;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-top: 2px solid #D1B3A7;
+        color: black;
+    }
+
+    button{
+        width: 15%;
+    }
+}

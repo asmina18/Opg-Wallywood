@@ -1,0 +1,46 @@
+@import url(../../Styled/GlobalStyle.scss);
+
+.PlakaterStyle {
+    max-width: 1000px;
+    margin: auto;
+    color: var(--greyBrown);
+
+
+    ul {
+        margin-bottom: 1em;
+    }
+
+    li {
+        list-style: none;
+
+    }
+
+    a {
+        font-family: var(--font);
+        color: var(--orange);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--brown);
+    }
+
+    .inputContainer {
+        display: flex;
+        input {
+            width: 8%;
+            border: none;
+            text-align: center;
+            margin: 0 3px;
+            
+        }
+
+        p {
+            margin: 3px;
+        }
+
+    }
+
+
+
+}

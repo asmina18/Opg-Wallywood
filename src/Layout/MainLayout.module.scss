@@ -1,14 +1,8 @@
+@import url(../Styled/GlobalStyle.scss);
 
-
-.layoutStyle{
-        height: 100vh;
-        text-align: center;
-        top: 0px;
-        left: 143px;
-        width: 1200px;
-
-    }
-    
-    main{
-        background-color: #1c8087;
-    }
+.layoutStyle {
+    margin: auto;
+    padding: 2rem;
+    max-width: 1000px;
+    background-color: var(--white);
+}

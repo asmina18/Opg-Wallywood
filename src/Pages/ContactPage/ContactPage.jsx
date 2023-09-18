@@ -1,18 +1,25 @@
 import React from 'react';
- 
+import { Headline } from '../../components/Headline/Headline'
+import style from './ContactPage.module.scss'
+import { OnClickButton } from '../../components/OnClickButton/OnClickButton';
+
 export const ContactPage = () => {
   return (
-    <div>
-      <h3>Contact Form</h3>
+    <div className={style.contactStyle}>
+      <Headline>Kontakt os</Headline>
       <div >
+
         <form action="">
-          <label htmlFor="fname">First Name</label>
-          <input name="firstname" placeholder="Your name.." />
+          <label htmlFor="">Dit navn </label>
+          <input type="name" placeholder='' />
+
           <label htmlFor="email">Email</label>
-          <input type name="email" placeholder="Your email..." />
-          <textarea placeholder="Write something.."></textarea>
-          <button>Send</button>
-          
+          <input type="email" placeholder='' />
+
+          <label htmlFor="">Din Besked</label>
+          <textarea name="comment" id="" cols="50" rows="10"></textarea>
+          <OnClickButton>Send</OnClickButton>
+
         </form>
       </div>
     </div>

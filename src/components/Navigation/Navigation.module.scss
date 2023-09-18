@@ -2,7 +2,7 @@
 
 .navStyle{
   overflow: hidden;
-  background-color:white;
+  margin-top:0;
   border-bottom: 2px solid #D97852;
   text-align: right; /* Выравнивание по правому краю */
  
@@ -11,11 +11,13 @@
 
 .navStyle a {
   display: inline-block; /* Размещение элементов в одной строке */
-  color:#191514;
+  color:var(--greyBrown);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: var(--font);
+  text-transform: uppercase;
 }
 
 .navStyle a:hover {

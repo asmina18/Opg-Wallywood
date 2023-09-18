@@ -7,24 +7,21 @@ import { FaPinterestP } from 'react-icons/fa'
 
 export const Footer = () => {
     return (
-        <footer className={style.footerStyle}>
-
-            <div className={style.footerContainer}>
-
-                <div className={style.adress}>
-                    <h2>Wallywood</h2>
-                    <address>
-                        Øster Uttrupvej 1<br />
-                        9000 Aalborg
-                    </address>
-                </div>
-
-                <div className={style.info}>
-                    <span>CVR: 12345678</span>
-                    <span>MAIL: info@wallywood.dk</span>
-                    <span>MOBIL: +45 9812 3456</span>
-                </div>
+        <footer className={style.footerContainer}>
+            <div className={style.adress}>
+                <h2>Wallywood</h2>
+                <p>
+                    Øster Uttrupvej 1<br />
+                    9000 Aalborg
+                </p>
             </div>
+
+            <div className={style.info}>
+                <span>CVR: 12345678</span>
+                <span>MAIL: info@wallywood.dk</span>
+                <span>MOBIL: +45 9812 3456</span>
+            </div>
+
             <div className={style.icons}>
                 <BsInstagram size={30} />
                 <AiFillTwitterCircle size={30} />

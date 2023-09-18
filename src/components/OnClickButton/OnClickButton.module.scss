@@ -1,0 +1,14 @@
+@import url(../../Styled/GlobalStyle.scss);
+
+button{
+    color: var(--greyBrown);
+    background-color: var(--skincolor);
+    border: 1px solid var(--greyBrown);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: var(--beige);
+    color: var(--white);
+}

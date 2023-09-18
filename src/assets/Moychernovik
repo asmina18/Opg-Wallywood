@@ -1,18 +1,39 @@
-export function ContactPage() {
+<!-- import React, { useState } from 'react';
+import { Headline } from '../../components/Headline/Headline'
+import style from './ContactPage.module.scss'
+import { OnClickButton } from '../../components/OnClickButton/OnClickButton';
 
-    return (
-      <section>
-        <h2>Kontakt os</h2>
-        <form action="">
-          <label htmlFor="">Dit navn</label>
-          <input type="name" />
-  
+ export const ContactPage = () => { -->
+  <!-- const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Отправить данные формы на сервер или выполнить другие действия
+    // Например, можно использовать fetch для отправки данных на сервер
+
+    console.log('Отправлено:', name, email, message);
+  };  -->
+
+ <!-- ' return (
+  ''  <div>
+      <Headline>Kontakt os</Headline>
+      
+      <div className={style.contactStyle} >
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="name">Dit navn</label>
+          <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} />
+
           <label htmlFor="email">Email</label>
-          <input type="email" />
-  
-          <textarea name="comment" id="" cols="30" rows="10"></textarea>
-          <button>Send</button>
+          <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+
+          <label htmlFor="message">Din Besked</label>
+          <textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)} rows="10"></textarea>
+          <OnClickButton>Send</OnClickButton>
         </form>
-      </section>
-    )
-  }
+      </div>
+    </div>
+  )
+}

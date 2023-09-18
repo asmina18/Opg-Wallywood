@@ -1,102 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;900&display=swap');
 
-:root {
-
+:root{
     /* Colors: */
-    --unnamed-color-5c1f06: Dark Mahogany,
-    --unnamed-color-d97852: Salmon Pink,
-    --unnamed-color-524641: Charcoal,
-    --unnamed-color-707070: Gray,
-    --unnamed-color-d1b3a7: Rose,
-    --unnamed-color-a68e85: Taupe,
+--brown: #5C1F06;
+--orange: #D97852;
+--greyBrown: #524641;
+--silver: #707070;
+--skincolor: #D1B3A7;
+--beige: #A68E85;
+--white: #f9f9f9;
 
-    /* Font/text values */
-    --unnamed-font-family-titillium-web: Titillium Web;
-    --unnamed-font-family-open-sans: Open Sans;
-    --unnamed-font-style-normal: normal;
-    --unnamed-font-weight-900: 900px;
-    --unnamed-font-weight-bold: bold;
-    --unnamed-font-weight-normal: normal;
-    --unnamed-font-size-14: 14px;
-    --unnamed-font-size-16: 16px;
-    --unnamed-font-size-20: 20px;
-    --unnamed-font-size-32: 32px;
-    --unnamed-font-size-54: 54px;
-    --unnamed-character-spacing-0: 0px;
-    --unnamed-line-spacing-19: 19px;
-    --unnamed-line-spacing-24: 24px;
-    --unnamed-line-spacing-27: 27px;
-    --unnamed-line-spacing-48: 48px;
-    --unnamed-line-spacing-82: 82px;
-}
-
-/* Character Styles */
-.titillium-web-—-54pt-logo {
-    font-family: var(--unnamed-font-family-titillium-web);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-900);
-    font-size: var(--unnamed-font-size-54);
-    line-height: var(--unnamed-line-spacing-82);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-d97852);
-}
-
-.titillium-web-—-32pt-h1 {
-    font-family: var(--unnamed-font-family-titillium-web);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-bold);
-    font-size: var(--unnamed-font-size-32);
-    line-height: var(--unnamed-line-spacing-48);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-d97852);
-}
-
-.open-sans-—-20pt-h2 {
-    font-family: var(--unnamed-font-family-open-sans);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-bold);
-    font-size: var(--unnamed-font-size-20);
-    line-height: var(--unnamed-line-spacing-27);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-524641);
-}
-
-.titillium-web-—-16pt-h3 {
-    font-family: var(--unnamed-font-family-titillium-web);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-bold);
-    font-size: var(--unnamed-font-size-16);
-    line-height: var(--unnamed-line-spacing-24);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-d97852);
-}
-
-.titillium-web-—-16pt-h4 {
-    font-family: var(--unnamed-font-family-titillium-web);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-bold);
-    font-size: var(--unnamed-font-size-16);
-    line-height: var(--unnamed-line-spacing-24);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-524641);
-}
-
-.open-sans-—-14pt-normal-link {
-    font-family: var(--unnamed-font-family-open-sans);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
-    font-size: var(--unnamed-font-size-14);
-    line-height: var(--unnamed-line-spacing-19);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-d97852);
-}
-
-.open-sans-—-14pt-normal {
-    font-family: var(--unnamed-font-family-open-sans);
-    font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
-    font-size: var(--unnamed-font-size-14);
-    line-height: var(--unnamed-line-spacing-19);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-524641);
+/*font*/
+--font: 'Titillium Web', sans-serif;
 }

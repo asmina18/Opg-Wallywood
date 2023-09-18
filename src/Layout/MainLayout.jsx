@@ -6,6 +6,7 @@ import style from './MainLayout.module.scss'
 
 
 
+
 export const MainLayout = (props) => {
 
     return (

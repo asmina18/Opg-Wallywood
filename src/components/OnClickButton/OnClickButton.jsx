@@ -1,5 +1,5 @@
 
-
+import style from './OnClickButton.module.scss'
 export function OnClickButton(props) {
 
 

@@ -1,0 +1,28 @@
+@import url(../../Styled/GlobalStyle.scss);
+
+.divContainer {
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: center;
+    
+    img{
+        width: 100%;
+        border-radius: 6px;
+    }
+    
+    .imgContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        figure{
+            display: grid;
+            grid-template-columns: 1fr 1fr  ;
+            gap: 1em;
+        }
+        
+        figcaption{
+            text-align: center;
+            // text-decoration: none;
+        }
+    }
+     
+}
